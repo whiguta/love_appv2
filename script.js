@@ -22,7 +22,7 @@ const motivos = [
 ];
 
 // Fazemos uma cópia da lista
-let motivosRestantes = [...motivosOriginais];
+let motivosRestantes = [...motivos];
 
 function atualizarContador() {
   const contador = document.getElementById('contador');
