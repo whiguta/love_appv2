@@ -1,0 +1,59 @@
+body {
+  background: #ffe9ec;
+  font-family: 'Comic Sans MS', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  color: #e60073;
+}
+
+.motivo {
+  font-size: 1.2em;
+  margin: 20px 0;
+  color: #333;
+  min-height: 60px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.motivo.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+button {
+  background: #e60073;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #cc0059;
+}
+
+.contador {
+  font-size: 1em;
+  color: #555;
+  margin-top: 10px;
+}
